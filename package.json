@@ -1,0 +1,22 @@
+{
+  "name": "celcoin",
+  "version": "1.0.0",
+  "description": "Teste de Automação - Q.A. Junior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheyla-lima/Celcoin.git"
+  },
+  "author": "Sheyla Lima Damasceno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sheyla-lima/Celcoin/issues"
+  },
+  "homepage": "https://github.com/Sheyla-lima/Celcoin#readme",
+  "devDependencies": {
+    "cypress": "^9.5.0"
+  }
+}
