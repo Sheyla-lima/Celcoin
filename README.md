@@ -30,3 +30,4 @@ const timestamp = new Date ().getTime()
     const email =`cadastro-${timestamp}@mail.com`;
     cy.get('#email_create').type(email) 
 
+# Celcoin
