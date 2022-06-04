@@ -17,18 +17,18 @@
 - Por fim, comitei o projeto para o meu git hub,  no repositório Celcoin
 
 ###### Comentários:
-> Foi um grande desafio para mim este teste de automação, porque até ser desafiada eu não tinha realizado efetivamente nenhum teste com o Cypress. 
-Mas minha vontade de completar o desafio foi maior.
-Busquei por informações na documentação do Cypress, por vídeos e dicas de colegas da comunidade quando esbarrava em uma situação que não conseguia pensar como continuar, porém, todo o código foi feito por mim e de forma a demonstrar meus conhecimentos básicos sobre a ferramenta.
+> Foi um grande desafio para mim este teste de automação, porque até ser desafiada, eu ainda não tinha realizado efetivamente nenhum teste com o Cypress, mas minha vontade de completar o desafio foi maior. Busquei por informações na documentação do Cypress, por vídeos e dicas de colegas da comunidade. Quando esbarrava em alguma situação que não conseguia pensar em como continuar, obtive orientações para conseguir seguir em frente, porém, todo o código foi feito por mim e de forma a demonstrar meus conhecimentos básicos sobre a ferramenta.
 
-> Aprendi a usar o especionar da ferramenta cypress
-cy.get busca a informação.
-type insere.
-cy.wait(3000) para que o comando aguarde o período de 30 segundos, de forma a dar mais tempo e evitando erro por time-out
-Consegui utilizar o clear atravé do entendimento que obtive desenvolvendo o projeto. O comando abaixo, busquei para evitar que ao repetir o teste, aconteça falha devido o email já ser cadastrado, ele combina a palavra cadastro com o horário que estou inserido a informação, incluíndo os milesegundos de forma a não repetir as informações.
-const timestamp = new Date ().getTime()
-const email =`cadastro-${timestamp}@mail.com`;
-cy.get('#email_create').type(email) 
+##### O que eu aprendi?
+- Utilizar o especionar da ferramenta cypress 
+- cy.get (busca a informação)
+- type insere. 
+- cy.wait(3000) para que o comando aguarde o período de 30 segundos, diminuindo erros por time-out. 
+- Clear para apagar a informação do campo, este eu consegui atravé do entendimento que obtive desenvolvendo o projeto.
+
+- O comando abaixo, busquei para evitar que ao repetir o teste, aconteça falha devido o email já ser cadastrado, ele combina a palavra cadastro com o horário que estou inserido a informação, incluíndo os milesegundos de forma a não repetir as informações. 
+
+const timestamp = new Date ().getTime() const email=cadastro-${timestamp}@mail.com; cy.get('#email_create').type(email)
 
 ##### Agradeço pela oportunidade, espero ter atingido as expectativas.
 ##### Ass: Sheyla Lima Damasceno
