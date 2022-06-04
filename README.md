@@ -16,8 +16,7 @@
 - Fiz o comando npx cypress open
 - Por fim, comitei o projeto para o meu git hub,  no repositório Celcoin
 
-###### Comentários:
-> Foi um grande desafio para mim este teste de automação, porque até ser desafiada, eu ainda não tinha realizado efetivamente nenhum teste com o Cypress, mas minha vontade de completar o desafio foi maior. Busquei por informações na documentação do Cypress, por vídeos e dicas de colegas da comunidade. Quando esbarrava em alguma situação que não conseguia pensar em como continuar, obtive orientações para conseguir seguir em frente, porém, todo o código foi feito por mim e de forma a demonstrar meus conhecimentos básicos sobre a ferramenta.
+Foi um grande desafio para mim este teste de automação, porque até ser desafiada, eu ainda não tinha realizado efetivamente nenhum teste com o Cypress, mas minha vontade de completar o desafio foi maior. Busquei por informações na documentação do Cypress, por vídeos e dicas de colegas da comunidade. Quando esbarrava em alguma situação que não conseguia pensar em como continuar, obtive orientações para conseguir seguir em frente, porém, todo o código foi feito por mim e de forma a demonstrar meus conhecimentos básicos sobre a ferramenta.
 
 ##### O que eu aprendi?
 - Utilizar o especionar da ferramenta cypress 
