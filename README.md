@@ -31,3 +31,4 @@ const timestamp = new Date ().getTime()
     cy.get('#email_create').type(email) 
 
 # Celcoin
+# teste
