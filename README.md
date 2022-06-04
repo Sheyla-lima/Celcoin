@@ -1,4 +1,4 @@
-####Primeiros passos:
+#### Primeiros passos:
 
 - Baixe O Projeto
 - Utilize o Vscode
@@ -30,5 +30,5 @@ const timestamp = new Date ().getTime()
 const email =`cadastro-${timestamp}@mail.com`;
 cy.get('#email_create').type(email) 
 
-**Agradeço pela oportunidade, espero ter atingido as expectativas.
-Ass: Sheyla Lima Damasceno****
+##### Agradeço pela oportunidade, espero ter atingido as expectativas.
+##### Ass: Sheyla Lima Damasceno
